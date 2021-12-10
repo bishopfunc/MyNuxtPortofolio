@@ -8,7 +8,7 @@
           <v-flex xs12 sm6 md4>コンテンツ</v-flex>
         </v-layout>
       </v-container> -->
-      <Home />
+      <Top />
       <About />
       <Engineering />
       <Research />
@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import Home from '@/components/index/Home.vue'
+import Top from '@/components/index/Top.vue'
 import About from '@/components/index/About.vue'
 import Engineering from '@/components/index/Engineering.vue'
 import Research from '@/components/index/Research.vue'
@@ -40,7 +40,7 @@ import Blog from '@/components/index/Blog.vue'
 
 export default {
   components: {
-    Home,
+    Top,
     About,
     Engineering,
     Research,

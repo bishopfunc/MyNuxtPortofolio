@@ -1,5 +1,5 @@
 <template>
-  <section id="home-first">
+  <section id="top">
     <v-container fluid fill-height class="__content">
       <v-row>
         <v-col class="__content-text">

@@ -6,6 +6,13 @@
   >
     <v-btn 
       text
+      @click="$vuetify.goTo('#top')"
+    >
+      TOP  
+    </v-btn>
+
+    <v-btn 
+      text
       @click="$vuetify.goTo('#about')"
     >
       ABOUT  
